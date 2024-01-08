@@ -13,7 +13,6 @@ li, a {
     font-size: 16px;
     color: white;
     text-decoration: none;
-    text-shadow: none;
 }
 
 .wrapper {
@@ -30,7 +29,6 @@ li, a {
 nav {
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 
 .nav_links {
