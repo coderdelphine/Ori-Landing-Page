@@ -51,6 +51,7 @@ nav {
 }
 
 .nav_links li a:hover{
+    transition: all 0,4s ease 0s;
     color: lightskyblue;
 }
 
@@ -71,23 +72,96 @@ nav {
     text-shadow: 0px 0px 8px blue;
 }
 
+.cart-links li a:hover {
+    color: lightskyblue;
+    transition: all 0,4s ease 0s;
+}
+
 .content {
     position: relative;
-    width: 100%;
-    display: flex; 
+    width: 50%;
+    display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
+    margin-left: 100px;
+    margin-top: 10%;
 }
 
 .content .textbox {
     position: relative;
-    max-width: 600px;
+    max-width: 100%;
 }
 
-.content .textBox h1 {
+.content .textbox h1 {
     color: white;
-    font-size: 20px;
+    font-size: 100px;
+    line-height: 1em;
+    font-weight: 650;
+    text-shadow: 0px 0px 14px Blue;
+}
+
+.content .textbox .para {
+    color: white;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.4em;
+    margin-top: 40px;
+    font-size: 17px;
     font-weight: 500;
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 70px;
+    background: white;
+    color: black;
+    border-radius: 16px;
+    font-weight: 800;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .textbox .play {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 14px 80px;
+    background: none;
+    border-style: solid;
+    color: white;
+    border-radius: 16px;
+    font-weight: 800;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .textbox a:hover {
+    transition: all 0.3s ease 0s;
+    color: white;
+    background: black;
+}
+
+.content .textbox .para1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.content .textbox .social li{
+    display: inline-block;
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+.content .textbox .social li a {
+    background: none;
+    color: white;
+    padding: 8px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 0;
+    float: left;
 }
